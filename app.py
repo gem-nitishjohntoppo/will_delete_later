@@ -7,7 +7,7 @@ RTC_CONFIGURATION = RTCConfiguration({
 })
 
 def main():
-    st.title("Webcam Feed using WebRTC")
+    st.title("Webcam Feed using WebRTC STUN")
 
     webrtc_streamer(
         key="example",
